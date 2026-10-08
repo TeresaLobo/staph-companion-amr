@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Cite a versão arquivada no Zenodo quando o DOI estiver disponível."
+message: "Cite esta versão dos dados e do código arquivada no Zenodo."
 type: dataset
 title: "Determinantes de resistência em genomas de Staphylococcaceae: dados e código de análise"
 version: 0.1.0
@@ -7,3 +7,7 @@ authors:
   - family-names: "Lôbo"
     given-names: "Teresa de Lisieux Guedes Ferreira"
 abstract: "Dados derivados e código de análise de 415 genomas públicos de Staphylococcaceae, incluindo animais de companhia e outras origens. Versão de pesquisa em revisão: o manuscrito apresenta 414 buscas proteicas arquivadas validadas (AMRFinderPlus 4.2.7; base 2026-03-24.1). Os 415 relatórios novos do Galaxy (busca combinada DNA/proteínas; base 2026-05-15.1) estão separados: 1884 hits AMR e 78 STRESS. Sua integridade foi conferida, mas a validação integral das novas anotações e a integração ao manuscrito permanecem pendentes. Não há dados experimentais de suscetibilidade, demonstração de transmissão ou atribuição confirmada a plasmídeos. A autoria do manuscrito é de Teresa de Lisieux Guedes Ferreira Lôbo; os genomas públicos conservam sua proveniência NCBI e não constituem dados gerados pela autora."
+
+doi: "10.5281/zenodo.23239447"
+url: "https://github.com/TeresaLobo/staph-companion-amr"
+date-released: "2026-10-08"
