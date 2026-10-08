@@ -1,5 +1,9 @@
 # Staphylococcaceae: animais de companhia e resistência antimicrobiana
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23239447.svg)](https://doi.org/10.5281/zenodo.23239447)
+
+**Depósito publicado:** [Zenodo, versão 0.1.0](https://doi.org/10.5281/zenodo.23239447). Este DOI identifica os dados derivados e o código desta versão; o pacote completo de sequências e o manuscrito não integram o registro.
+
 Autora do estudo: **Teresa de Lisieux Guedes Ferreira Lôbo**.
 
 Versão **0.1.0**, dados e código de pesquisa em revisão. Este repositório contém dados derivados, tabelas, figuras e scripts; não certifica a conclusão do manuscrito nem uma publicação em periódico.
@@ -21,10 +25,10 @@ Os 415 genomas são públicos, obtidos do NCBI; a lista de acessos, BioSamples, 
 
 Python 3, pandas, numpy e reportlab são usados pelos scripts disponíveis. Prokka e AMRFinderPlus foram executados em ambientes registrados na documentação. A reconstrução das análises arquivadas exige a pasta original como primeiro argumento de `validate_rebuild.py`; o segundo argumento define a saída. Faça uma cópia de trabalho antes de reexecutar scripts que escrevem resultados.
 
-Para reprocessar os relatórios novos, colocar `amrfinder_415_Galaxy.zip` em `reanotacao_sem_wsl/` e executar `python reprodutibilidade/treat_galaxy_reports.py` numa cópia de trabalho. O ZIP bruto não integra o histórico Git. Os arquivos volumosos e o manuscrito de revisão estão no pacote local `pack_artigo_completo_para_revisao.zip`, que será depositado separadamente no Zenodo; seu DOI será adicionado após a publicação. Ainda não existe link público desse pacote nesta versão.
+Para reprocessar os relatórios novos, colocar `amrfinder_415_Galaxy.zip` em `reanotacao_sem_wsl/` e executar `python reprodutibilidade/treat_galaxy_reports.py` numa cópia de trabalho. O ZIP bruto não integra o histórico Git. Os arquivos volumosos e o manuscrito de revisão estão no pacote local `pack_artigo_completo_para_revisao.zip`, que será depositado separadamente no Zenodo; o identificador do pacote completo será adicionado após seu depósito separado. Ainda não existe link público desse pacote nesta versão.
 
 ## Citação, licença e pendências
 
-Metadados em `.zenodo.json`; citação em `CITATION.cff`. O DOI desta release será acrescentado após verificação no Zenodo. Dados derivados e documentação próprios: CC BY 4.0. Código próprio: MIT, conforme `LICENSE_CODE`. Arquivos de terceiros mantêm suas condições originais; a licença deste repositório não concede novos direitos sobre sequências NCBI nem software externo.
+Metadados em `.zenodo.json`; citação em `CITATION.cff`. DOI da versão 0.1.0: https://doi.org/10.5281/zenodo.23239447 . Dados derivados e documentação próprios: CC BY 4.0. Código próprio: MIT, conforme `LICENSE_CODE`. Arquivos de terceiros mantêm suas condições originais; a licença deste repositório não concede novos direitos sobre sequências NCBI nem software externo.
 
 Ainda faltam a validação completa das anotações novas, conferência dos genes do controle positivo, integração final ao manuscrito e confirmação das declarações institucionais pela autora. A submissão ao periódico não foi realizada.
